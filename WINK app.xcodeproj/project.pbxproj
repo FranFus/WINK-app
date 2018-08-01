@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E0839042112392900AD00B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0839032112392900AD00B4 /* AppDelegate.swift */; };
+		1E0839062112392900AD00B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0839052112392900AD00B4 /* ViewController.swift */; };
+		1E0839092112392900AD00B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E0839072112392900AD00B4 /* Main.storyboard */; };
+		1E08390B2112392C00AD00B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E08390A2112392C00AD00B4 /* Assets.xcassets */; };
+		1E08390E2112392C00AD00B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E08390C2112392C00AD00B4 /* LaunchScreen.storyboard */; };
+		1E0839192112392C00AD00B4 /* WINK_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0839182112392C00AD00B4 /* WINK_appTests.swift */; };
+		1E0839242112392C00AD00B4 /* WINK_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0839232112392C00AD00B4 /* WINK_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E0839152112392C00AD00B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E0838F82112392900AD00B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E0838FF2112392900AD00B4;
+			remoteInfo = "WINK app";
+		};
+		1E0839202112392C00AD00B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E0838F82112392900AD00B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E0838FF2112392900AD00B4;
+			remoteInfo = "WINK app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E0839002112392900AD00B4 /* WINK app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WINK app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E0839032112392900AD00B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E0839052112392900AD00B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E0839082112392900AD00B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E08390A2112392C00AD00B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E08390D2112392C00AD00B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E08390F2112392C00AD00B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E0839142112392C00AD00B4 /* WINK appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WINK appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E0839182112392C00AD00B4 /* WINK_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WINK_appTests.swift; sourceTree = "<group>"; };
+		1E08391A2112392C00AD00B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E08391F2112392C00AD00B4 /* WINK appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WINK appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E0839232112392C00AD00B4 /* WINK_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WINK_appUITests.swift; sourceTree = "<group>"; };
+		1E0839252112392C00AD00B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E0838FD2112392900AD00B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E0839112112392C00AD00B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E08391C2112392C00AD00B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E0838F72112392900AD00B4 = {
+			isa = PBXGroup;
+			children = (
+				1E0839022112392900AD00B4 /* WINK app */,
+				1E0839172112392C00AD00B4 /* WINK appTests */,
+				1E0839222112392C00AD00B4 /* WINK appUITests */,
+				1E0839012112392900AD00B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E0839012112392900AD00B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E0839002112392900AD00B4 /* WINK app.app */,
+				1E0839142112392C00AD00B4 /* WINK appTests.xctest */,
+				1E08391F2112392C00AD00B4 /* WINK appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E0839022112392900AD00B4 /* WINK app */ = {
+			isa = PBXGroup;
+			children = (
+				1E0839032112392900AD00B4 /* AppDelegate.swift */,
+				1E0839052112392900AD00B4 /* ViewController.swift */,
+				1E0839072112392900AD00B4 /* Main.storyboard */,
+				1E08390A2112392C00AD00B4 /* Assets.xcassets */,
+				1E08390C2112392C00AD00B4 /* LaunchScreen.storyboard */,
+				1E08390F2112392C00AD00B4 /* Info.plist */,
+			);
+			path = "WINK app";
+			sourceTree = "<group>";
+		};
+		1E0839172112392C00AD00B4 /* WINK appTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E0839182112392C00AD00B4 /* WINK_appTests.swift */,
+				1E08391A2112392C00AD00B4 /* Info.plist */,
+			);
+			path = "WINK appTests";
+			sourceTree = "<group>";
+		};
+		1E0839222112392C00AD00B4 /* WINK appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E0839232112392C00AD00B4 /* WINK_appUITests.swift */,
+				1E0839252112392C00AD00B4 /* Info.plist */,
+			);
+			path = "WINK appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E0838FF2112392900AD00B4 /* WINK app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E0839282112392C00AD00B4 /* Build configuration list for PBXNativeTarget "WINK app" */;
+			buildPhases = (
+				1E0838FC2112392900AD00B4 /* Sources */,
+				1E0838FD2112392900AD00B4 /* Frameworks */,
+				1E0838FE2112392900AD00B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WINK app";
+			productName = "WINK app";
+			productReference = 1E0839002112392900AD00B4 /* WINK app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E0839132112392C00AD00B4 /* WINK appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E08392B2112392C00AD00B4 /* Build configuration list for PBXNativeTarget "WINK appTests" */;
+			buildPhases = (
+				1E0839102112392C00AD00B4 /* Sources */,
+				1E0839112112392C00AD00B4 /* Frameworks */,
+				1E0839122112392C00AD00B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E0839162112392C00AD00B4 /* PBXTargetDependency */,
+			);
+			name = "WINK appTests";
+			productName = "WINK appTests";
+			productReference = 1E0839142112392C00AD00B4 /* WINK appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E08391E2112392C00AD00B4 /* WINK appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E08392E2112392C00AD00B4 /* Build configuration list for PBXNativeTarget "WINK appUITests" */;
+			buildPhases = (
+				1E08391B2112392C00AD00B4 /* Sources */,
+				1E08391C2112392C00AD00B4 /* Frameworks */,
+				1E08391D2112392C00AD00B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E0839212112392C00AD00B4 /* PBXTargetDependency */,
+			);
+			name = "WINK appUITests";
+			productName = "WINK appUITests";
+			productReference = 1E08391F2112392C00AD00B4 /* WINK appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E0838F82112392900AD00B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Francesco Fuscaldo";
+				TargetAttributes = {
+					1E0838FF2112392900AD00B4 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					1E0839132112392C00AD00B4 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1E0838FF2112392900AD00B4;
+					};
+					1E08391E2112392C00AD00B4 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1E0838FF2112392900AD00B4;
+					};
+				};
+			};
+			buildConfigurationList = 1E0838FB2112392900AD00B4 /* Build configuration list for PBXProject "WINK app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E0838F72112392900AD00B4;
+			productRefGroup = 1E0839012112392900AD00B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E0838FF2112392900AD00B4 /* WINK app */,
+				1E0839132112392C00AD00B4 /* WINK appTests */,
+				1E08391E2112392C00AD00B4 /* WINK appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E0838FE2112392900AD00B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E08390E2112392C00AD00B4 /* LaunchScreen.storyboard in Resources */,
+				1E08390B2112392C00AD00B4 /* Assets.xcassets in Resources */,
+				1E0839092112392900AD00B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E0839122112392C00AD00B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E08391D2112392C00AD00B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E0838FC2112392900AD00B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0839062112392900AD00B4 /* ViewController.swift in Sources */,
+				1E0839042112392900AD00B4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E0839102112392C00AD00B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0839192112392C00AD00B4 /* WINK_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E08391B2112392C00AD00B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0839242112392C00AD00B4 /* WINK_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E0839162112392C00AD00B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E0838FF2112392900AD00B4 /* WINK app */;
+			targetProxy = 1E0839152112392C00AD00B4 /* PBXContainerItemProxy */;
+		};
+		1E0839212112392C00AD00B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E0838FF2112392900AD00B4 /* WINK app */;
+			targetProxy = 1E0839202112392C00AD00B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E0839072112392900AD00B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E0839082112392900AD00B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E08390C2112392C00AD00B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E08390D2112392C00AD00B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E0839262112392C00AD00B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E0839272112392C00AD00B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E0839292112392C00AD00B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XP37UPQ43S;
+				INFOPLIST_FILE = "WINK app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FF.WINK-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E08392A2112392C00AD00B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XP37UPQ43S;
+				INFOPLIST_FILE = "WINK app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FF.WINK-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E08392C2112392C00AD00B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XP37UPQ43S;
+				INFOPLIST_FILE = "WINK appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FF.WINK-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WINK app.app/WINK app";
+			};
+			name = Debug;
+		};
+		1E08392D2112392C00AD00B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XP37UPQ43S;
+				INFOPLIST_FILE = "WINK appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FF.WINK-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WINK app.app/WINK app";
+			};
+			name = Release;
+		};
+		1E08392F2112392C00AD00B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XP37UPQ43S;
+				INFOPLIST_FILE = "WINK appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FF.WINK-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WINK app";
+			};
+			name = Debug;
+		};
+		1E0839302112392C00AD00B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XP37UPQ43S;
+				INFOPLIST_FILE = "WINK appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FF.WINK-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WINK app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E0838FB2112392900AD00B4 /* Build configuration list for PBXProject "WINK app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E0839262112392C00AD00B4 /* Debug */,
+				1E0839272112392C00AD00B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E0839282112392C00AD00B4 /* Build configuration list for PBXNativeTarget "WINK app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E0839292112392C00AD00B4 /* Debug */,
+				1E08392A2112392C00AD00B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E08392B2112392C00AD00B4 /* Build configuration list for PBXNativeTarget "WINK appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E08392C2112392C00AD00B4 /* Debug */,
+				1E08392D2112392C00AD00B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E08392E2112392C00AD00B4 /* Build configuration list for PBXNativeTarget "WINK appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E08392F2112392C00AD00B4 /* Debug */,
+				1E0839302112392C00AD00B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E0838F82112392900AD00B4 /* Project object */;
+}
