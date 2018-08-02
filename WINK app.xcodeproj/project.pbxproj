@@ -14,6 +14,10 @@
 		1E08390E2112392C00AD00B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E08390C2112392C00AD00B4 /* LaunchScreen.storyboard */; };
 		1E0839192112392C00AD00B4 /* WINK_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0839182112392C00AD00B4 /* WINK_appTests.swift */; };
 		1E0839242112392C00AD00B4 /* WINK_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0839232112392C00AD00B4 /* WINK_appUITests.swift */; };
+		1E08393221123C7F00AD00B4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E08393121123C7F00AD00B4 /* SecondViewController.swift */; };
+		1E0839392112658700AD00B4 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0839372112658700AD00B4 /* TableViewCell.swift */; };
+		1E08393A2112658700AD00B4 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E0839382112658700AD00B4 /* TableViewCell.xib */; };
+		1E08393E21127F1700AD00B4 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E08393D21127F1700AD00B4 /* Protocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		1E08391F2112392C00AD00B4 /* WINK appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WINK appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E0839232112392C00AD00B4 /* WINK_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WINK_appUITests.swift; sourceTree = "<group>"; };
 		1E0839252112392C00AD00B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E08393121123C7F00AD00B4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1E0839372112658700AD00B4 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		1E0839382112658700AD00B4 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		1E08393D21127F1700AD00B4 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +107,11 @@
 			children = (
 				1E0839032112392900AD00B4 /* AppDelegate.swift */,
 				1E0839052112392900AD00B4 /* ViewController.swift */,
+				1E08393D21127F1700AD00B4 /* Protocols.swift */,
+				1E08393121123C7F00AD00B4 /* SecondViewController.swift */,
 				1E0839072112392900AD00B4 /* Main.storyboard */,
+				1E0839372112658700AD00B4 /* TableViewCell.swift */,
+				1E0839382112658700AD00B4 /* TableViewCell.xib */,
 				1E08390A2112392C00AD00B4 /* Assets.xcassets */,
 				1E08390C2112392C00AD00B4 /* LaunchScreen.storyboard */,
 				1E08390F2112392C00AD00B4 /* Info.plist */,
@@ -230,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E08390E2112392C00AD00B4 /* LaunchScreen.storyboard in Resources */,
+				1E08393A2112658700AD00B4 /* TableViewCell.xib in Resources */,
 				1E08390B2112392C00AD00B4 /* Assets.xcassets in Resources */,
 				1E0839092112392900AD00B4 /* Main.storyboard in Resources */,
 			);
@@ -256,6 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E08393E21127F1700AD00B4 /* Protocols.swift in Sources */,
+				1E0839392112658700AD00B4 /* TableViewCell.swift in Sources */,
+				1E08393221123C7F00AD00B4 /* SecondViewController.swift in Sources */,
 				1E0839062112392900AD00B4 /* ViewController.swift in Sources */,
 				1E0839042112392900AD00B4 /* AppDelegate.swift in Sources */,
 			);
@@ -433,6 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XP37UPQ43S;
 				INFOPLIST_FILE = "WINK app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +468,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XP37UPQ43S;
 				INFOPLIST_FILE = "WINK app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
